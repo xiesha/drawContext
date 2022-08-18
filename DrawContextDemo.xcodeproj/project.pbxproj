@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		335A5CCF28AE0E2200D93C6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A5CCE28AE0E2200D93C6D /* AppDelegate.m */; };
+		335A5CD228AE0E2200D93C6D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A5CD128AE0E2200D93C6D /* SceneDelegate.m */; };
+		335A5CD528AE0E2200D93C6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A5CD428AE0E2200D93C6D /* ViewController.m */; };
+		335A5CD828AE0E2200D93C6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335A5CD628AE0E2200D93C6D /* Main.storyboard */; };
+		335A5CDA28AE0E2300D93C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335A5CD928AE0E2300D93C6D /* Assets.xcassets */; };
+		335A5CDD28AE0E2300D93C6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335A5CDB28AE0E2300D93C6D /* LaunchScreen.storyboard */; };
+		335A5CE028AE0E2300D93C6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A5CDF28AE0E2300D93C6D /* main.m */; };
+		335A5CEB28AE0E8F00D93C6D /* SHLiveCourseLivingDrawContextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A5CE928AE0E8F00D93C6D /* SHLiveCourseLivingDrawContextView.m */; };
+		335A5CEC28AE0E8F00D93C6D /* SHShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A5CEA28AE0E8F00D93C6D /* SHShapeLayer.m */; };
+		335A5CF128AE0EC300D93C6D /* SHLiveCourseLivingEraserSetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A5CEE28AE0EC300D93C6D /* SHLiveCourseLivingEraserSetView.m */; };
+		335A5CF228AE0EC300D93C6D /* SHLiveCourseLivingPenSetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A5CEF28AE0EC300D93C6D /* SHLiveCourseLivingPenSetView.m */; };
+		335A5CF528AE0EFC00D93C6D /* SHLiveCourseLivingDrawToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A5CF328AE0EFC00D93C6D /* SHLiveCourseLivingDrawToolView.m */; };
+		335A5CF828AE0F5B00D93C6D /* SHLiveCourseLivingRightToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 335A5CF728AE0F5B00D93C6D /* SHLiveCourseLivingRightToolView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		335A5CCA28AE0E2200D93C6D /* DrawContextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawContextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		335A5CCD28AE0E2200D93C6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		335A5CCE28AE0E2200D93C6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		335A5CD028AE0E2200D93C6D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		335A5CD128AE0E2200D93C6D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		335A5CD328AE0E2200D93C6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		335A5CD428AE0E2200D93C6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		335A5CD728AE0E2200D93C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		335A5CD928AE0E2300D93C6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		335A5CDC28AE0E2300D93C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		335A5CDE28AE0E2300D93C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335A5CDF28AE0E2300D93C6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		335A5CE728AE0E8F00D93C6D /* SHShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHShapeLayer.h; sourceTree = "<group>"; };
+		335A5CE828AE0E8F00D93C6D /* SHLiveCourseLivingDrawContextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLiveCourseLivingDrawContextView.h; sourceTree = "<group>"; };
+		335A5CE928AE0E8F00D93C6D /* SHLiveCourseLivingDrawContextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLiveCourseLivingDrawContextView.m; sourceTree = "<group>"; };
+		335A5CEA28AE0E8F00D93C6D /* SHShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHShapeLayer.m; sourceTree = "<group>"; };
+		335A5CED28AE0EC300D93C6D /* SHLiveCourseLivingEraserSetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLiveCourseLivingEraserSetView.h; sourceTree = "<group>"; };
+		335A5CEE28AE0EC300D93C6D /* SHLiveCourseLivingEraserSetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLiveCourseLivingEraserSetView.m; sourceTree = "<group>"; };
+		335A5CEF28AE0EC300D93C6D /* SHLiveCourseLivingPenSetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLiveCourseLivingPenSetView.m; sourceTree = "<group>"; };
+		335A5CF028AE0EC300D93C6D /* SHLiveCourseLivingPenSetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLiveCourseLivingPenSetView.h; sourceTree = "<group>"; };
+		335A5CF328AE0EFC00D93C6D /* SHLiveCourseLivingDrawToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLiveCourseLivingDrawToolView.m; sourceTree = "<group>"; };
+		335A5CF428AE0EFC00D93C6D /* SHLiveCourseLivingDrawToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLiveCourseLivingDrawToolView.h; sourceTree = "<group>"; };
+		335A5CF628AE0F5B00D93C6D /* SHLiveCourseLivingRightToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLiveCourseLivingRightToolView.h; sourceTree = "<group>"; };
+		335A5CF728AE0F5B00D93C6D /* SHLiveCourseLivingRightToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLiveCourseLivingRightToolView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		335A5CC728AE0E2200D93C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335A5CC128AE0E2200D93C6D = {
+			isa = PBXGroup;
+			children = (
+				335A5CCC28AE0E2200D93C6D /* DrawContextDemo */,
+				335A5CCB28AE0E2200D93C6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		335A5CCB28AE0E2200D93C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				335A5CCA28AE0E2200D93C6D /* DrawContextDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		335A5CCC28AE0E2200D93C6D /* DrawContextDemo */ = {
+			isa = PBXGroup;
+			children = (
+				335A5CCD28AE0E2200D93C6D /* AppDelegate.h */,
+				335A5CCE28AE0E2200D93C6D /* AppDelegate.m */,
+				335A5CD028AE0E2200D93C6D /* SceneDelegate.h */,
+				335A5CD128AE0E2200D93C6D /* SceneDelegate.m */,
+				335A5CD328AE0E2200D93C6D /* ViewController.h */,
+				335A5CD428AE0E2200D93C6D /* ViewController.m */,
+				335A5CE628AE0E5D00D93C6D /* Classes */,
+				335A5CD628AE0E2200D93C6D /* Main.storyboard */,
+				335A5CD928AE0E2300D93C6D /* Assets.xcassets */,
+				335A5CDB28AE0E2300D93C6D /* LaunchScreen.storyboard */,
+				335A5CDE28AE0E2300D93C6D /* Info.plist */,
+				335A5CDF28AE0E2300D93C6D /* main.m */,
+			);
+			path = DrawContextDemo;
+			sourceTree = "<group>";
+		};
+		335A5CE628AE0E5D00D93C6D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				335A5CF628AE0F5B00D93C6D /* SHLiveCourseLivingRightToolView.h */,
+				335A5CF728AE0F5B00D93C6D /* SHLiveCourseLivingRightToolView.m */,
+				335A5CF428AE0EFC00D93C6D /* SHLiveCourseLivingDrawToolView.h */,
+				335A5CF328AE0EFC00D93C6D /* SHLiveCourseLivingDrawToolView.m */,
+				335A5CF028AE0EC300D93C6D /* SHLiveCourseLivingPenSetView.h */,
+				335A5CEF28AE0EC300D93C6D /* SHLiveCourseLivingPenSetView.m */,
+				335A5CED28AE0EC300D93C6D /* SHLiveCourseLivingEraserSetView.h */,
+				335A5CEE28AE0EC300D93C6D /* SHLiveCourseLivingEraserSetView.m */,
+				335A5CE828AE0E8F00D93C6D /* SHLiveCourseLivingDrawContextView.h */,
+				335A5CE928AE0E8F00D93C6D /* SHLiveCourseLivingDrawContextView.m */,
+				335A5CE728AE0E8F00D93C6D /* SHShapeLayer.h */,
+				335A5CEA28AE0E8F00D93C6D /* SHShapeLayer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		335A5CC928AE0E2200D93C6D /* DrawContextDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335A5CE328AE0E2300D93C6D /* Build configuration list for PBXNativeTarget "DrawContextDemo" */;
+			buildPhases = (
+				335A5CC628AE0E2200D93C6D /* Sources */,
+				335A5CC728AE0E2200D93C6D /* Frameworks */,
+				335A5CC828AE0E2200D93C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawContextDemo;
+			productName = DrawContextDemo;
+			productReference = 335A5CCA28AE0E2200D93C6D /* DrawContextDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		335A5CC228AE0E2200D93C6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					335A5CC928AE0E2200D93C6D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 335A5CC528AE0E2200D93C6D /* Build configuration list for PBXProject "DrawContextDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 335A5CC128AE0E2200D93C6D;
+			productRefGroup = 335A5CCB28AE0E2200D93C6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				335A5CC928AE0E2200D93C6D /* DrawContextDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		335A5CC828AE0E2200D93C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335A5CDD28AE0E2300D93C6D /* LaunchScreen.storyboard in Resources */,
+				335A5CDA28AE0E2300D93C6D /* Assets.xcassets in Resources */,
+				335A5CD828AE0E2200D93C6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335A5CC628AE0E2200D93C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335A5CF828AE0F5B00D93C6D /* SHLiveCourseLivingRightToolView.m in Sources */,
+				335A5CF228AE0EC300D93C6D /* SHLiveCourseLivingPenSetView.m in Sources */,
+				335A5CF528AE0EFC00D93C6D /* SHLiveCourseLivingDrawToolView.m in Sources */,
+				335A5CD528AE0E2200D93C6D /* ViewController.m in Sources */,
+				335A5CEB28AE0E8F00D93C6D /* SHLiveCourseLivingDrawContextView.m in Sources */,
+				335A5CCF28AE0E2200D93C6D /* AppDelegate.m in Sources */,
+				335A5CE028AE0E2300D93C6D /* main.m in Sources */,
+				335A5CF128AE0EC300D93C6D /* SHLiveCourseLivingEraserSetView.m in Sources */,
+				335A5CEC28AE0E8F00D93C6D /* SHShapeLayer.m in Sources */,
+				335A5CD228AE0E2200D93C6D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		335A5CD628AE0E2200D93C6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335A5CD728AE0E2200D93C6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		335A5CDB28AE0E2300D93C6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335A5CDC28AE0E2300D93C6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		335A5CE128AE0E2300D93C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		335A5CE228AE0E2300D93C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		335A5CE428AE0E2300D93C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4FEWYC8B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DrawContextDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.tangce.teac.DrawContextDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		335A5CE528AE0E2300D93C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4FEWYC8B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DrawContextDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.tangce.teac.DrawContextDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		335A5CC528AE0E2200D93C6D /* Build configuration list for PBXProject "DrawContextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335A5CE128AE0E2300D93C6D /* Debug */,
+				335A5CE228AE0E2300D93C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335A5CE328AE0E2300D93C6D /* Build configuration list for PBXNativeTarget "DrawContextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335A5CE428AE0E2300D93C6D /* Debug */,
+				335A5CE528AE0E2300D93C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 335A5CC228AE0E2200D93C6D /* Project object */;
+}
